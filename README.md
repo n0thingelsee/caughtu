@@ -17,3 +17,7 @@ Windows:
 I hope you like it
 
 ![image alt](https://cdn.phototourl.com/free/2026-08-28-76ccbc39-fe54-4681-bbe3-ec5bdde6d475.png)
+![image alt](https://cdn.phototourl.com/free/2026-08-28-8607eeee-bf96-4eb8-a49a-64a445c05f62.png)
+![image alt](https://cdn.phototourl.com/free/2026-08-28-471b04a0-6460-49c9-a065-ee37b635f92f.png)
+
+
