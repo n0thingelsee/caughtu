@@ -1,0 +1,2 @@
+requests==2.34.2
+phonenumbers==9.0.37
