@@ -15,3 +15,5 @@ Windows:
 - `python caughtu.py`
 
 I hope you like it
+
+![image alt](https://cdn.phototourl.com/free/2026-08-28-76ccbc39-fe54-4681-bbe3-ec5bdde6d475.png)
