@@ -17,7 +17,7 @@ def finish():
 green = "\x1b[32m"
 white = "\x1b[37m"
 red = "\x1b[31m"
-gray = "\x1b[35m"
+purple = "\x1b[35m"
 
 logo = f"""{green}
  ██████╗ █████╗ ██╗   ██╗ ██████╗ ██╗  ██╗████████╗██╗   ██╗
@@ -27,7 +27,7 @@ logo = f"""{green}
 ╚██████╗██║  ██║╚██████╔╝╚██████╔╝██║  ██║   ██║   ╚██████╔╝
  ╚═════╝╚═╝  ╚═╝ ╚═════╝  ╚═════╝ ╚═╝  ╚═╝   ╚═╝    ╚═════╝ 
                                                             
-{gray}by n0thing.elsee                
+{purple}by n0thing.elsee                
 """
 
 choices = f"""{white}
