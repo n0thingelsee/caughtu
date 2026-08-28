@@ -113,11 +113,11 @@ while __name__ == "__main__":
 				username = input("Insert a his common username: ")
 				webbrowser.open(f"https://www.google.com/search?q=%22{username}%22+OR+%22%40{username}%22")
 				finish()
-		elif i == 5:
-			clear()
-			username = input("Insert a Username/Full Name: ")
-			username = username.replace(" ", "+")
-			webbrowser.open(f"https://doxbin.com/?search=content&query={username}")
-			finish()
+	elif i == 5:
+		clear()
+		username = input("Insert a Username/Full Name: ")
+		username = username.replace(" ", "+")
+		webbrowser.open(f"https://doxbin.com/?search=content&query={username}")
+		finish()
 		
 	
