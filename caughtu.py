@@ -89,8 +89,8 @@ while __name__ == "__main__":
 		elif i1 == 2:
 			clear()
 			print("[01] Track his Entire Life")
-			print("[02] Track his Accounts")
-			print("[03] Track his Social Life")
+			print("[02] Track his Social Life")
+			print("[03] Track his Accounts")
 			i2 = int(input("\nSelect one: "))
 			if i2 == 1:
 				clear()
