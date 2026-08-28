@@ -110,7 +110,7 @@ while __name__ == "__main__":
 				finish()
 			elif i2 == 3:
 				clear()
-				username = input("Insert a his common username:")
+				username = input("Insert a his common username: ")
 				webbrowser.open(f"https://www.google.com/search?q=%22{username}%22+OR+%22%40{username}%22")
 				finish()
 		elif i == 5:
