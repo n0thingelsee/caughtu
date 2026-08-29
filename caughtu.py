@@ -18,6 +18,7 @@ green = "\x1b[32m"
 white = "\x1b[37m"
 red = "\x1b[31m"
 purple = "\x1b[35m"
+gray = "\x1b[90m"
 
 logo = f"""{green}
  ██████╗ █████╗ ██╗   ██╗ ██████╗ ██╗  ██╗████████╗██╗   ██╗
@@ -27,16 +28,18 @@ logo = f"""{green}
 ╚██████╗██║  ██║╚██████╔╝╚██████╔╝██║  ██║   ██║   ╚██████╔╝
  ╚═════╝╚═╝  ╚═╝ ╚═════╝  ╚═════╝ ╚═╝  ╚═╝   ╚═╝    ╚═════╝ 
                                                             
-{purple}by n0thing.elsee                
+{gray}by n0thing.elsee                
 """
 
 choices = f"""{white}
-[01] Track IP
-[02] Track Num
-[03] DoS Attack
-[04] Google Dorks
-[05] D0x Search
-[00] Exit
+{purple}[01] {white}Track IP
+{purple}[02] {white}Track Num
+{purple}[03] {white}DoS Attack
+{purple}[04] {white}Google Dorks
+{purple}[05] {white}D0x Search
+{purple}[06] {white}Osint AI
+
+{purple}[00] {red}Exit
 """
 while __name__ == "__main__":
 	clear()
@@ -119,5 +122,10 @@ while __name__ == "__main__":
 		username = username.replace(" ", "+")
 		webbrowser.open(f"https://doxbin.com/?search=content&query={username}")
 		finish()
-		
-	
+	elif i == 6:
+		clear()
+		search = str(input('tip: dont click "accept only necessary cookies" or "accept all cookies"\nInsert his username/Full name: '))
+		newsearch = search.replace(" ", "%2520")
+		newsearch0 = newsearch.replace("'", "%27")
+		webbrowser.open("https://www.perplexity.ai/search/new?q=find%2520all%2520"+newsearch0+"%27s%2520information%2520on%2520the%2520web")
+		finish()
